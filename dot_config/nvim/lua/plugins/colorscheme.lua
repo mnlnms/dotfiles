@@ -49,6 +49,7 @@ return {
         treesitter_context = true,
         which_key = true,
       },
+      style = "mocha",
     },
     specs = {
       {
