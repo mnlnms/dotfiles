@@ -1,4 +1,3 @@
--- Das ist ein Test
 -- Pull in the wezterm API
 local wezterm = require 'wezterm'
 
@@ -13,7 +12,8 @@ config = {
 	color_scheme = 'Catppuccin Mocha',
 	default_cursor_style = "SteadyBar",
 	font = wezterm.font("JetBrainsMono Nerd Font Mono", { weight = "Bold" }),
-	font_size = 12.5,
+	font_size = 16.0,
+	macos_window_background_blur = 30,
 	use_fancy_tab_bar = false,
 	tab_bar_at_bottom = false,
 	window_background_opacity = 0.9,

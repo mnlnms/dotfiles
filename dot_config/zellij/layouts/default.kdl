@@ -61,8 +61,8 @@ layout {
         }
     }
 	tab name="editor" focus=true {
-        pane borderless=true
-    }
+		pane borderless=true command="nvim"
+	}
     tab name="terminal" {
         pane
         pane size="20%"
