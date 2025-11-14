@@ -33,6 +33,7 @@ in {
     pkgs.ripgrep
     pkgs.neovim
     pkgs.stow
+    pkgs.zellij
     pkgs.zoxide
 
     pkgs.claude-code
