@@ -30,8 +30,9 @@ in {
     pkgs.htop
     pkgs.ion
     pkgs.jq
-    pkgs.ripgrep
     pkgs.neovim
+    pkgs.starship
+    pkgs.ripgrep
     pkgs.stow
     pkgs.zellij
     pkgs.zoxide
