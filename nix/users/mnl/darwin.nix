@@ -22,6 +22,7 @@
       "helium-browser"
       "bitwarden"
       "ghostty"
+      "rustdesk"
     ];
 
     brews = [
