@@ -23,6 +23,7 @@
       "bitwarden"
       "ghostty"
       "rustdesk"
+      "winbox"
     ];
 
     brews = [
