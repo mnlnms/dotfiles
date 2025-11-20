@@ -6,23 +6,22 @@
     enable = true;
     enableRosetta = true;
     user = "mnl";
-    # taps = {
-    #   "homebrew/homebrew-core" = inputs.homebrew-core;
-    #   "homebrew/homebrew.cask" = inputs.homebrew-cask;
-    # };
-    # mutableTaps = false;
+    taps = {
+      "homebrew/homebrew-core" = inputs.homebrew-core;
+      "homebrew/homebrew-cask" = inputs.homebrew-cask;
+    };
+    mutableTaps = false;
   };
 
   homebrew = {
     enable = true;
-    # taps = builtins.attrNames config.nix-homebrew.taps;
+    taps = builtins.attrNames config.nix-homebrew.taps;
     casks  = [
       "spotify"
       "zen"
       "helium-browser"
       "bitwarden"
       "ghostty"
-      "rustdesk"
       "winbox"
     ];
 
@@ -31,6 +30,7 @@
     
     onActivation = {
       cleanup = "uninstall";
+      autoUpdate = true;
     };
   };
 
