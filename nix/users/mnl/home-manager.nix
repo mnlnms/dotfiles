@@ -31,6 +31,7 @@ in {
     pkgs.ion
     pkgs.jq
     pkgs.neovim
+    pkgs.oh-my-posh
     pkgs.starship
     pkgs.ripgrep
     pkgs.stow
