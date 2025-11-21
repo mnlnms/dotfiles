@@ -23,6 +23,7 @@
       "bitwarden"
       "ghostty"
       "winbox"
+      "zerotier-one"
     ];
 
     brews = [
