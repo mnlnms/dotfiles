@@ -36,7 +36,8 @@
   
   # Fonts
   fonts.packages = with pkgs; [
-    (nerdfonts.override { fonts [ "JetBrainsMono" ]; })
+    # (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+    nerd-fonts.jetbrains-mono
   ];
 
   # The user should already exist, but we need to set this up so Nix knows
