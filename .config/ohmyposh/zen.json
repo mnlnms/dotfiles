@@ -45,15 +45,23 @@
           "template": "{{ .HEAD }} ",
           "style": "plain",
           "type": "git"
-        },
-         {
-           "style": "plain",
-           "foreground": "p:closer",
-           "template": "\uf105",
-           "type": "text"
-         }
+        }
       ],
-      "type": "prompt"
+      "type": "prompt",
+      "newline": true
+    },
+    {
+      "alignment": "left",
+      "segments": [
+        {
+	  "style": "plain",
+	  "foreground": "p:closer",
+	  "template": "\uf105",
+	  "type": "text"
+	}
+      ],
+      "type": "prompt",
+      "newline": true
     }
   ],
   "final_space": true,

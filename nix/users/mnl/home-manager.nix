@@ -27,6 +27,7 @@ in {
     pkgs.fd
     pkgs.fzf
     pkgs.gh
+    pkgs.helix
     pkgs.htop
     pkgs.ion
     pkgs.jq
@@ -35,6 +36,7 @@ in {
     pkgs.starship
     pkgs.ripgrep
     pkgs.stow
+    pkgs.tmux
     pkgs.zellij
     pkgs.zoxide
 
