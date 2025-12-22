@@ -22,7 +22,7 @@
       "helium-browser"
       "bitwarden"
       "ghostty"
-      "logitech-options+"
+      "logi-options+"
       "vesktop"
       "winbox"
       "zerotier-one"
