@@ -29,6 +29,7 @@
     ];
 
     brews = [
+      "cirruslabs/cli/tart"
     ];
     
     onActivation = {
