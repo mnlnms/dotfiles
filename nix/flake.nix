@@ -47,6 +47,11 @@
       url = "github:homebrew/homebrew-cask";
       flake = false;
     };
+
+    cirusslabs-tart = {
+      url = "github:cirruslabs/cli/tart";
+      flake = false;
+    };
   };
 
   outputs = { self, nixpkgs, home-manager, darwin, nix-homebrew, homebrew-core, homebrew-cask, ... }@inputs: let
