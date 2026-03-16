@@ -48,8 +48,13 @@
       flake = false;
     };
 
-    cirusslabs-tart = {
-      url = "github:cirruslabs/cli/tart";
+    cirruslabs-cli = {
+      url = "github:cirruslabs/homebrew-cli";
+      flake = false;
+    };
+    
+    omniwm-tap = {
+      url = "github:BarutSRB/homebrew-tap";
       flake = false;
     };
   };

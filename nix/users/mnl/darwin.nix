@@ -9,7 +9,8 @@
     taps = {
       "homebrew/homebrew-core" = inputs.homebrew-core;
       "homebrew/homebrew-cask" = inputs.homebrew-cask;
-      "cirruslabs/cli/tart" = inputs.cirruslabs-tart;
+      "cirruslabs/homebrew-cli" = inputs.cirruslabs-cli;
+      "BarutSRB/tap" = inputs.omniwm-tap;
     };
     mutableTaps = false;
   };
@@ -31,6 +32,7 @@
 
     brews = [
       "cirruslabs/cli/tart"
+      "BarutSRB/tap/omniwm"
     ];
     
     onActivation = {
