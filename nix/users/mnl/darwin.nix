@@ -28,6 +28,7 @@
       "vesktop"
       "winbox"
       "zerotier-one"
+      "raycast"
       "omniwm"
     ];
 
