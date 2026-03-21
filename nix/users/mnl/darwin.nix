@@ -10,7 +10,7 @@
       "homebrew/homebrew-core" = inputs.homebrew-core;
       "homebrew/homebrew-cask" = inputs.homebrew-cask;
       "cirruslabs/homebrew-cli" = inputs.cirruslabs-cli;
-      "BarutSRB/tap" = inputs.omniwm-tap;
+      "BarutSRB/homebrew-tap" = inputs.omniwm-tap;
     };
     mutableTaps = false;
   };
@@ -28,11 +28,12 @@
       "vesktop"
       "winbox"
       "zerotier-one"
+      "omniwm"
     ];
 
     brews = [
       "cirruslabs/cli/tart"
-      "BarutSRB/tap/omniwm"
+      # "BarutSRB/tap/omniwm"
     ];
     
     onActivation = {
