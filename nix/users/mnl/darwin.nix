@@ -29,7 +29,6 @@
       "winbox"
       "zerotier-one"
       "raycast"
-      "wine-stable"
     ];
 
     brews = [
