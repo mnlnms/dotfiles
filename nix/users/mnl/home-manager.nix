@@ -31,6 +31,7 @@ in {
     pkgs.htop
     pkgs.ion
     pkgs.jq
+    pkgs.mosh
     pkgs.neovim
     pkgs.oh-my-posh
     pkgs.starship
